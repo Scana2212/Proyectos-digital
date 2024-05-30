@@ -1,0 +1,9 @@
+Reutilizable e independiente: propia lógica y estado.
+Base del desarrollo en react, dividir interfaz de usuario (pequeñas y manejable)
+Props: Reciben datos externos, permite comunicación entre componentes.
+Estado: propio estado interno, gestión de datos interno durante ciclo de vida de la aplicacion.
+Jerarquia: Pueden combinar y anidar para jerarquia compleja
+---------------
+2 tipos de componentes:
+-De Clase: eran forma principal de crear componentes con estado y metodos del ciclo de vida hasta la llegada de los Hooks. Aun son compatibles.
+-Funcionales(rafc): funciones de javascript q reciben props y devuelven elementos de React
