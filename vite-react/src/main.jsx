@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { PortfolioApp } from './PortfolioApp'
+import { Props } from './Components/Props'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PortfolioApp/>
+    <Props numero = {5}/>
   </React.StrictMode>,
 )
